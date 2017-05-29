@@ -9550,7 +9550,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "User",
+											"text": "Registered User",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -11154,7 +11154,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFcDrTnUpgI1Qc="
 					},
-					"name": "User",
+					"name": "Registered User",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
