@@ -10125,7 +10125,7 @@
 							"left": 512,
 							"top": 216,
 							"width": 113,
-							"height": 65,
+							"height": 51,
 							"autoResize": false,
 							"text": "gravatar is a generated url string",
 							"wordWrap": true
@@ -10152,7 +10152,7 @@
 								"$ref": "AAAAAAFcDry7JZzGiAw="
 							},
 							"lineStyle": 1,
-							"points": "428:340;518:281"
+							"points": "428:338;530:267"
 						},
 						{
 							"_type": "UMLClassView",
@@ -11270,6 +11270,53 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAFcqRixEYBMwU8="
 							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFcqUDkRobc6Xs=",
+							"_parent": {
+								"$ref": "AAAAAAFcDrTnUpgJ6Wo="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 600,
+							"top": 600,
+							"width": 120,
+							"height": 41,
+							"autoResize": false,
+							"text": "Message class is package access.",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFcqUFfCYfGZkc=",
+							"_parent": {
+								"$ref": "AAAAAAFcDrTnUpgJ6Wo="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFcqUDkRobc6Xs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFcqJVscSHUTgM="
+							},
+							"lineStyle": 1,
+							"points": "558:619;599:619"
 						}
 					]
 				},
@@ -13098,7 +13145,7 @@
 						"$ref": "AAAAAAFcDrTnUpgI1Qc="
 					},
 					"name": "Message",
-					"visibility": "public",
+					"visibility": "package",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
